@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Olumide<span>Graphic</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
+                
+                <ul class="secondary-nav">
+                    <li><a href="Home/index.html">Home</a></li>
+                    <li><a href="Gallery/index.html">Gallery</a></li>
+                <li><a href="Our Team/team.html">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a class="log-in" href="Sign In/Sign_in.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    
+    <!-- <section class="navbar">   
+        <div class="container">
+        
+            <a class="logo" href="/index.html">About<span></span></a>
+          <nav>
+            <ul>
+                <li><a href="/Home/index.html">Home</a></li>
+                <li><a href="/Gallery/index.html">Gallery</a></li>
+                <li><a href="/Our Team/team.html">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a class="log-in" href="/Sign In/Sign_in.html">Sign In</a></li>
+            </ul>
+        </nav>
+        </div>
+    </section> -->
+
+
+
+    <section class="testimonials" id="testimonials">
+        <div class="number">
+            <div class="a"> 2500</div>
+            <div class="b">300</div>
+            <div class="c">120</div>
+            <div class="d">30 <br></div> 
+        </div>
+        <div class="letters">
+            <div class="ab">HAPPY CLIENT</div>
+            <div class="bb">FULL NOTEBOOK</div>
+            <div class="cb">TEAM MATE</div>
+            <div class="db">STORES</div>    
+        </div>
+        <div>
+            <img src="img/olumide mck up 2(1).jpg" alt="" class="img">
+        </div>                    
+    </section>
+
+    <section class="about" id="about">            
+       
+        <div class="about-us">
+            <div class="our">
+                ABOUT US
+            </div>
+            <div class="our-w">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+            </div>
+
+            <div class="number">
+                <div class="a"> <img src="img/1.jpg" alt=""></div>
+                <div class="b"><img src="img/2.jpg" alt=""></div>
+                <div class="c"><img src="img/20210105_143340.jpg" alt=""></div>
+            </div>
+            <div class="letters">
+                <div class="ab">FRIENDLY TEAM</div>
+                <div class="bb">INVOLVED</div>
+                <div class="cb">24/7 ASSISTANCE</div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+</body>
+</html>

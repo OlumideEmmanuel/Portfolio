@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  position: relative;
+  background-image: url("../img/background 121.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  overflow-y: hidden;
+}
+
+.navbar {
+  padding: 1em;
+}
+
+.navbar .logo {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.navbar .logo span {
+  color: white;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: #0bdf8e;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.team-leader .our {
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.team-leader .note {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  font-weight: 500;
+}
+
+.team-3 {
+  background-color: none;
+  padding-bottom: 4em;
+}
+
+.team-3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2em;
+  padding-right: 2em;
+}
+
+.team-3 li {
+  list-style-type: none;
+  color: white;
+  border-radius: 3%;
+  text-align: center;
+  width: 80%;
+  margin: .6em;
+}
+
+.team-3 li .name1 {
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.team-3 li .name1 .name11 {
+  padding-top: 1em;
+}
+
+.team-3 li .name2 {
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.team-3 li .name2 .name22 {
+  padding-top: 1em;
+}
+
+.team-3 li .name3 {
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.team-3 li .name3 .name33 {
+  padding-top: 1em;
+}
+
+.team-3 li img {
+  width: 90%;
+  height: 55%;
+  border: 3px solid #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .logo {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  .logo span {
+    color: #f00d0d;
+  }
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar nav {
+    display: -ms-grid;
+    display: grid;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .secondary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  li {
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: .1em 1em;
+    font-weight: bold;
+  }
+  li a:hover {
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    color: #0bdf8e;
+  }
+  .log-in {
+    color: white;
+    border: 3px solid white;
+    padding: .3em;
+    border-radius: .6em;
+  }
+  .log-in:hover {
+    background-color: #7a73b9;
+    color: white;
+  }
+}
+/*# sourceMappingURL=team.css.map */
