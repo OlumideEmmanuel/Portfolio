@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  position: relative;
+  background-image: url("../images/background 121.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.navbar {
+  padding: 1em;
+}
+
+.navbar .logo {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.navbar .logo span {
+  color: #f00d0d;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: #0bdf8e;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.left-side .new {
+  position: absolute;
+  font-size: 30px;
+  top: 80px;
+  left: 170px;
+}
+
+.left-side .virtual {
+  position: absolute;
+  font-size: 35px;
+  text-align: center;
+  top: 120px;
+  left: 100px;
+  font-weight: bolder;
+}
+
+.left-side .virtual .r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-side .virtual .e {
+  padding-left: 10px;
+}
+
+.left-side .buy {
+  position: absolute;
+  font-size: 15px;
+  top: 210px;
+  left: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-side .buy img {
+  padding-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.left-side .youtube {
+  position: absolute;
+  top: 510px;
+  left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.left-side .youtube:hover {
+  color: white;
+}
+
+.center img {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 290px;
+  left: 220px;
+}
+
+.right-side .discount {
+  position: absolute;
+  top: 320px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.right-side .lorem {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.right-side .icon {
+  position: absolute;
+  top: 570px;
+  left: 10px;
+}
+
+.right-side .icon img {
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+  }
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .logo {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  .logo span {
+    color: #f00d0d;
+  }
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar nav {
+    display: -ms-grid;
+    display: grid;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .secondary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  li {
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: .1em 1em;
+    font-weight: bold;
+  }
+  li a:hover {
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    color: #0bdf8e;
+  }
+  .log-in {
+    color: white;
+    border: 3px solid white;
+    padding: .3em;
+    border-radius: .6em;
+  }
+  .log-in:hover {
+    background-color: #7a73b9;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .left-side .new {
+    position: absolute;
+    font-size: 30px;
+    top: 180px;
+    left: 40px;
+    font-weight: bold;
+  }
+  .left-side .virtual {
+    position: absolute;
+    font-size: 70px;
+    text-align: left;
+    top: 230px;
+    left: 40px;
+    font-weight: bolder;
+  }
+  .left-side .virtual .r {
+    display: -ms-grid;
+    display: grid;
+  }
+  .left-side .virtual .e {
+    padding: 0px;
+  }
+  .left-side .buy {
+    position: absolute;
+    font-size: 15px;
+    top: 500px;
+    left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .left-side .buy img {
+    padding-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .left-side .youtube {
+    position: absolute;
+    top: 510px;
+    left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .left-side .youtube:hover {
+    color: white;
+  }
+  .center img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+  }
+  .right-side .discount {
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: right;
+  }
+  .right-side .lorem {
+    position: absolute;
+    top: 320px;
+    left: 970px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: right;
+  }
+  .right-side .icon {
+    position: absolute;
+    top: 570px;
+    left: 1100px;
+  }
+  .right-side .icon img {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

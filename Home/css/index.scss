@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  position: relative;
+  background-image:  url("../images/background\ 121.png");
+  //background-image:  url('../Images/background\ 1.png');
+  background-repeat:repeat-y;
+  background-size: cover;
+  color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar {  
+  padding: 1em;
+
+  .logo{
+      color: antiquewhite;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 2em;
+      span{
+          color: rgb(240, 13, 13);
+      }
+  }
+
+  nav {
+      display: none;
+  }
+  
+  .container {
+      display: flex;
+      place-content: space-between;
+  }
+
+  .mobile-menu {
+      cursor: pointer;
+  }
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+ list-style-type: none; 
+ margin: 0;
+ padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272E;
+  height: 100vh;
+  padding: 1em;
+
+  ul.primary-nav {
+      margin-top: 5em;
+  }
+
+  li {
+      
+      a {
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+          display: block;
+          padding: .5em;
+          font-size: 1.3em;
+          text-align: right;
+
+          &:hover {
+                      text-decoration: solid;
+                      color: rgb(11, 223, 142);
+      }
+  }
+  }
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+
+
+
+
+.left-side{
+    .new{
+        position: absolute;
+        font-size: 30px;
+        top: 80px;
+        left: 170px;
+        
+    }
+
+    .virtual{
+        position: absolute;
+        font-size: 35px;
+        text-align: center;
+        top: 120px;
+        left: 100px;
+        font-weight: bolder;
+        // display: flex;
+
+        .r{
+            display: flex;
+        }
+       
+        .e{
+            padding-left: 10px;
+        }
+    }
+
+    .buy{
+        position: absolute;
+        font-size: 15px;
+        top: 210px;
+        left: 230px;
+        display: flex;
+        
+        img{
+            padding-left: 5px;
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    // come back to this 
+
+    .youtube{
+        position: absolute;
+        top: 510px;
+        left: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        
+        &:hover {
+            color: white;
+        }
+        
+        
+        
+    }
+}
+
+.center{
+ img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 290px;
+    left: 220px;
+ }
+}
+
+
+.right-side{
+
+    .discount{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .lorem{
+        position: absolute;
+        top: 400px;
+        left: 10px;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .icon{
+        position: absolute;
+        top: 570px;
+        left: 10px;
+        
+        img{
+        height: 30px;
+        width: 30px;
+        padding-right:5px;
+    }
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  body{
+    overflow-y: hidden;
+  }
+
+
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+}
+
+.logo{
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2em;
+  span{
+      color: rgb(240, 13, 13);
+  }
+}
+
+.navbar{
+  justify-content: space-between;
+ }
+
+ .navbar nav {
+  display: grid;
+  background: none;
+  position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+  
+  }
+
+  .secondary-nav{
+    display: flex;
+    justify-content: end;
+    }
+
+    li{
+      list-style-type: none;
+                      
+      a{
+          text-decoration:none ;
+          cursor: pointer;
+          color: white;
+          padding: .1em 1em;
+          font-weight: bold;
+                            
+          &:hover {
+              text-decoration: solid;
+              color: rgb(11, 223, 142);
+                          }
+                             
+                         }
+                     }
+      
+      
+                      .log-in{
+                        color: white;
+                        border: 3px solid rgb(255, 255, 255);
+                        padding: .3em;    
+                        border-radius: .6em; 
+                                 
+                      &:hover{
+                      background-color: rgb(122, 115, 185);
+                      color: rgb(255, 255, 255);
+                                 }
+              }
+
+}
+
+
+@media only screen and (min-width: 1080px){
+
+    
+
+
+    .left-side{
+        .new{
+            position: absolute;
+            font-size: 30px;
+            top: 180px;
+            left: 40px;
+            font-weight: bold;
+            
+        }
+    
+        .virtual{
+            position: absolute;
+            font-size: 70px;
+            text-align: left;
+            top: 230px;
+            left: 40px;
+            font-weight:bolder;
+
+    
+
+           .r{
+            display: grid;
+           }
+
+           .e{
+            padding: 0px;
+           }
+        }
+    
+        .buy{
+            position: absolute;
+            font-size: 15px;
+            top: 500px;
+            left: 40px;
+            display: flex;
+            
+            img{
+                padding-left: 5px;
+                height: 20px;
+                width: 20px;
+            }
+        }
+    
+        // come back to this 
+    
+        .youtube{
+            position: absolute;
+            top: 510px;
+            left: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            
+            &:hover {
+                color: white;
+            }
+            
+            
+            
+        }
+    }
+    
+    .center{
+     img{
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        top: 60px;
+        left: 400px;
+     }
+    }
+    
+    
+    .right-side{
+    
+        .discount{
+            position: absolute;
+            top: 250px;
+            left: 1100px;
+            font-size: 25px;
+            font-weight: lighter;
+            text-align: right;
+        }
+    
+        .lorem{
+            position: absolute;
+            top: 320px;
+            left: 970px;
+            font-size: 15px;
+            font-weight: lighter;
+            text-align: right;
+        }
+    
+        .icon{
+            position: absolute;
+            top: 570px;
+            left: 1100px;
+            
+            img{
+            height: 30px;
+            width: 30px;
+            padding-right:10px;
+        }
+        }
+        
+    }
+
+}
+
+
+
+
+
+
+
+

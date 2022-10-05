@@ -7,6 +7,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  overflow-x: hidden;
 }
 
 
@@ -180,10 +181,10 @@ nav {
        font-family: 'Times New Roman', Times, serif;
 
        .a{
-        padding-right: 5em;
+        padding-right: 4em;
        }
        .b{
-        padding-right: 4em;
+        padding-right: 3em;
        }
        .c{
         padding-right: 4em;
@@ -202,10 +203,10 @@ nav {
         font-family: 'Times New Roman', Times, serif;
  
         .ab{
-         padding-right: 11.2em;
+         padding-right: 8.9em;
         }
         .bb{
-         padding-right: 8.3em;
+         padding-right: 6em;
         }
         .cb{
          padding-right: 8.5em;
@@ -228,10 +229,11 @@ nav {
 
 .about{
     
-    padding: 8em;
-    padding-top: 1em;
-    padding-bottom: 4em;
+    padding: 0em;
+    padding-top: 0em;
+    padding-left: 4em;
     display: flex;
+    
         
 
    img{

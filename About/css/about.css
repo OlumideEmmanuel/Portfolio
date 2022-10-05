@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -108,11 +109,11 @@ nav li a:hover {
 }
 
 .testimonials .number .a {
-  padding-right: 5em;
+  padding-right: 4em;
 }
 
 .testimonials .number .b {
-  padding-right: 4em;
+  padding-right: 3em;
 }
 
 .testimonials .number .c {
@@ -135,11 +136,11 @@ nav li a:hover {
 }
 
 .testimonials .letters .ab {
-  padding-right: 11.2em;
+  padding-right: 8.9em;
 }
 
 .testimonials .letters .bb {
-  padding-right: 8.3em;
+  padding-right: 6em;
 }
 
 .testimonials .letters .cb {
@@ -160,9 +161,9 @@ nav li a:hover {
 }
 
 .about {
-  padding: 8em;
-  padding-top: 1em;
-  padding-bottom: 4em;
+  padding: 0em;
+  padding-top: 0em;
+  padding-left: 4em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
