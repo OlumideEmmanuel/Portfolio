@@ -140,21 +140,25 @@ nav {
         }
     }
 
-    // come back to this 
+    
 
     .youtube{
         position: absolute;
         top: 510px;
         left: 10px;
-        text-decoration: none;
-        cursor: pointer;
         
-        &:hover {
-            color: white;
-        }
-        
-        
-        
+        a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 15px;
+                    &:hover{
+                        color: white;
+                    }
+                    
+                    &:active{
+                        color: rgb(4, 0, 255);
+                    }
+                }       
     }
 }
 
@@ -333,18 +337,23 @@ nav {
         // come back to this 
     
         .youtube{
+
             position: absolute;
-            top: 510px;
-            left: 10px;
-            text-decoration: none;
-            cursor: pointer;
-            
-            &:hover {
-                color: white;
-            }
-            
-            
-            
+            top: 110%;
+            left: 2.5%;
+
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                &:hover{
+                    color: white;
+                }
+                
+                &:active{
+                    color: rgb(4, 0, 255);
+                }
+            }  
         }
     }
     
