@@ -438,7 +438,7 @@ nav {
 
 
 
-//This is where i stopped 
+
 
 @media only screen and (min-width: 425px) {
     body{
@@ -663,6 +663,7 @@ nav {
 
   body{
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
 
@@ -730,6 +731,119 @@ nav {
                                  }
               }
 
+
+
+
+              .left-side{
+                .new{
+                    position: absolute;
+                    font-size: 20px;
+                    top: 180px;
+                    left: 40px;
+                    font-weight: bold;
+                    
+                }
+            
+                .virtual{
+                    position: absolute;
+                    font-size: 45px;
+                    text-align: left;
+                    top: 210px;
+                    left: 40px;
+                    font-weight:bolder;
+        
+            
+        
+                   .r{
+                    display: grid;
+                   }
+        
+                   .e{
+                    padding: 0px;
+                   }
+                }
+            
+                .buy{
+                    position: absolute;
+                    font-size: 15px;
+                    top: 400px;
+                    left: 40px;
+                    display: flex;
+                    
+                    img{
+                        padding-left: 5px;
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+            
+               
+                .youtube{
+        
+                    position: absolute;
+                    top: 90%;
+                    left: 5%;
+        
+                    a{
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-size: 18px;
+                        &:hover{
+                            color: white;
+                        }
+                        
+                        &:active{
+                            color: rgb(4, 0, 255);
+                        }
+                    }  
+                }
+            }
+            
+            .center{
+             img{
+                width: 350px;
+                height: 350px;
+                position: absolute;
+                top: 180px;
+                left: 200px;
+             }
+            }
+            
+            
+            .right-side{
+            
+                .discount{
+                    position: absolute;
+                    top: 200px;
+                    left: 570px;
+                    font-size: 25px;
+                    font-weight: lighter;
+                    text-align: right;
+                }
+            
+                .lorem{
+                    position: absolute;
+                    top: 320px;
+                    left: 490px;
+                    font-size: 12px;
+                    font-weight: lighter;
+                    text-align: right;
+                }
+            
+                .icon{
+                    position: absolute;
+                    top: 490px;
+                    left: 550px;
+                    
+                    img{
+                    height: 30px;
+                    width: 30px;
+                    padding-right:10px;
+                }
+                }
+                
+            }
+
 }
 
 
@@ -781,8 +895,7 @@ nav {
             }
         }
     
-        // come back to this 
-    
+       
         .youtube{
 
             position: absolute;

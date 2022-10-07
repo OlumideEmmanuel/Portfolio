@@ -521,6 +521,7 @@ nav li a:hover {
 @media only screen and (min-width: 768px) {
   body {
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .mobile-menu, .mobile-menu-exit {
     display: none;
@@ -580,6 +581,91 @@ nav li a:hover {
   .log-in:hover {
     background-color: #7a73b9;
     color: white;
+  }
+  .left-side .new {
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    left: 40px;
+    font-weight: bold;
+  }
+  .left-side .virtual {
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    top: 210px;
+    left: 40px;
+    font-weight: bolder;
+  }
+  .left-side .virtual .r {
+    display: -ms-grid;
+    display: grid;
+  }
+  .left-side .virtual .e {
+    padding: 0px;
+  }
+  .left-side .buy {
+    position: absolute;
+    font-size: 15px;
+    top: 400px;
+    left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .left-side .buy img {
+    padding-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .left-side .youtube {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+  .left-side .youtube a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  .left-side .youtube a:hover {
+    color: white;
+  }
+  .left-side .youtube a:active {
+    color: #0400ff;
+  }
+  .center img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+  }
+  .right-side .discount {
+    position: absolute;
+    top: 200px;
+    left: 570px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: right;
+  }
+  .right-side .lorem {
+    position: absolute;
+    top: 320px;
+    left: 490px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: right;
+  }
+  .right-side .icon {
+    position: absolute;
+    top: 490px;
+    left: 550px;
+  }
+  .right-side .icon img {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
   }
 }
 
