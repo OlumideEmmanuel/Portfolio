@@ -174,10 +174,9 @@ nav {
 .down{
     padding: 0px;
     display: flex;
-    
-
     .youtube{
         padding-left: 25px;
+        
         
                 
                 a{
@@ -197,10 +196,7 @@ nav {
 
             .icon{
                 padding-top: 15px;
-                padding-left: 20px;
-                
-                  
-                            
+                padding-left: 20px;      
                     img{
                      height: 25px;
                     width: 25x;
@@ -210,6 +206,356 @@ nav {
     }
 
 
+    @media only screen and (min-width: 375px) {
+
+
+        
+.down{
+    padding: 0px;
+    display: flex;
+    .youtube{
+        padding-left: 25px;
+        
+        
+                
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 15px;
+                    &:hover{
+                            color: white;
+                        }
+                            
+                    &:active{
+                        color: rgb(4, 0, 255);
+                        }
+                        }       
+            }
+
+
+            .icon{
+                padding-top: 15px;
+                padding-left: 70px;      
+                    img{
+                     height: 25px;
+                    width: 25x;
+                    padding-right:5px;
+                        }
+            }
+    }
+
+    }
+
+
+
+
+
+
+    @media only screen and (min-width: 768px) {
+
+          body{
+            overflow-y: hidden;
+            overflow-x: hidden;
+          }
+        
+        
+          .mobile-menu, .mobile-menu-exit {
+            display: none;
+        }
+        
+        .logo{
+          color: antiquewhite;
+          text-decoration: none;
+          font-weight: bolder;
+          font-size: 2em;
+          span{
+              color: rgb(240, 13, 13);
+          }
+        }
+        
+        .navbar{
+          justify-content: space-between;
+         }
+        
+         .navbar nav {
+          display: grid;
+          background: none;
+          position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0;
+          
+          }
+        
+          .secondary-nav{
+            display: flex;
+            justify-content: end;
+            }
+        
+            li{
+              list-style-type: none;
+                              
+              a{
+                  text-decoration:none ;
+                  cursor: pointer;
+                  color: white;
+                  padding: .1em 1em;
+                  font-weight: bold;
+                                    
+                  &:hover {
+                      text-decoration: solid;
+                      color: rgb(11, 223, 142);
+                                  }
+                                     
+                                 }
+                             }
+              
+              
+                              .log-in{
+                                color: white;
+                                border: 3px solid rgb(255, 255, 255);
+                                padding: .3em;    
+                                border-radius: .6em; 
+                                         
+                              &:hover{
+                              background-color: rgb(122, 115, 185);
+                              color: rgb(255, 255, 255);
+                                         }
+                      }
+
+
+                      
+.center{
+    margin: 15px;
+    padding: 0px;
+
+
+    .center-left{
+       padding: 2px;
+    }
+
+    .new{
+        font-family: 'Alkalami', serif;
+        text-align: center;
+        font-size: 55px;
+
+    }
+    
+    .virtual{
+        // display: none;
+        font-family: 'Alkalami', serif;
+        text-align: center;
+        font-size: 70px;
+        line-height: 60px;
+        font-family: 'Passion One', cursive;
+    }
+
+    .buy{
+        padding-top: 10px;
+        font-family: 'Catamaran', sans-serif;
+        display: flex;
+        padding-left: 30px;
+        font-size: 30px;
+        
+        img{
+            // display: none;
+            padding-left: 5px;
+            width: 25px;
+            height: 25px;
+            
+        }
+    }
+
+    .center-middle{
+        
+        img{
+            // padding-left: 15px;
+            padding-top: 20px;
+            width: 17em;
+            height: 17rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 5px solid rgb(255, 255, 255);
+
+
+            
+            
+        }
+    }
+
+
+    .center-right{
+        padding: 10px;
+
+        .discount{
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .lorem{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.down{
+    padding: 0px;
+    display: flex;
+    .youtube{
+        padding-left: 25px;
+        
+        
+                
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 30px;
+                    &:hover{
+                            color: white;
+                        }
+                            
+                    &:active{
+                        color: rgb(4, 0, 255);
+                        }
+                        }       
+            }
+
+
+            .icon{
+                padding-top: 15px;
+                padding-left: 300px;      
+                    img{
+                     height: 35px;
+                    width: 35x;
+                    padding-right:5px;
+                        }
+            }
+    }
+
+
+
+
+        }
+
+
+
+
+        
+    @media only screen and (min-width: 1024px) {
+                    
+.center{
+  margin: 15px;
+  padding: 0px;
+
+
+  .center-left{
+     padding: 2px;
+  }
+
+  .new{
+      font-family: 'Alkalami', serif;
+      text-align: center;
+      font-size: 50px;
+
+  }
+  
+  .virtual{
+      // display: none;
+      font-family: 'Alkalami', serif;
+      text-align: center;
+      font-size: 100px;
+      line-height: 70px;
+      font-family: 'Passion One', cursive;
+  }
+
+  .buy{
+      padding-top: 5px;
+      font-family: 'Catamaran', sans-serif;
+      display: flex;
+      padding-left: 30px;
+      font-size: 30px;
+      
+      img{
+          // display: none;
+          padding-left: 5px;
+          width: 30px;
+          height: 30px;
+          
+      }
+  }
+
+  .center-middle{
+      
+      img{
+          // padding-left: 15px;
+          padding-top: 20px;
+          width: 18em;
+          height: 18rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          border: 5px solid rgb(255, 255, 255);
+
+
+          
+          
+      }
+  }
+
+
+  .center-right{
+      padding: 10px;
+
+      .discount{
+          font-weight: bold;
+          font-size: 30px;
+      }
+
+      .lorem{
+          font-size: 25px;
+      }
+  }
+}
+
+
+.down{
+  padding: 0px;
+  margin: 0%;
+  display: flex;
+  .youtube{
+      padding-left: 25px;
+      
+      
+              
+              a{
+                  text-decoration: none;
+                  color: rgb(255, 255, 255);
+                  font-size: 30px;
+                  &:hover{
+                          color: white;
+                      }
+                          
+                  &:active{
+                      color: rgb(4, 0, 255);
+                      }
+                      }       
+          }
+
+
+          .icon{
+              padding-top: 15px;
+              padding-left: 500px;      
+                  img{
+                   height: 35px;
+                  width: 35x;
+                  padding-right:5px;
+                      }
+          }
+  }
+
+      }
 
 
 
@@ -218,6 +564,129 @@ nav {
 
 
 
+
+
+
+ @media only screen and (min-width: 1440px) {
+      
+    
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+.center{
+  margin: 15px;
+  padding: 0px;
+  display: flex;
+
+
+  .center-left{
+     padding: 2px;
+  }
+
+  .new{
+      font-family: 'Alkalami', serif;
+      text-align: center;
+      font-size: 50px;
+
+  }
+  
+  .virtual{
+      // display: none;
+      font-family: 'Alkalami', serif;
+      text-align: center;
+      font-size: 100px;
+      line-height: 70px;
+      font-family: 'Passion One', cursive;
+  }
+
+  .buy{
+      padding-top: 5px;
+      font-family: 'Catamaran', sans-serif;
+      display: flex;
+      padding-left: 30px;
+      font-size: 30px;
+      
+      img{
+          // display: none;
+          padding-left: 5px;
+          width: 30px;
+          height: 30px;
+          
+      }
+  }
+
+  .center-middle{
+      
+      img{
+          // padding-left: 15px;
+          padding-top: 20px;
+          width: 18em;
+          height: 18rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          border: 5px solid rgb(255, 255, 255);
+
+
+          
+          
+      }
+  }
+
+
+  .center-right{
+      padding: 10px;
+
+      .discount{
+          font-weight: bold;
+          font-size: 30px;
+      }
+
+      .lorem{
+          font-size: 25px;
+      }
+  }
+}
+
+
+.down{
+  padding: 0px;
+  margin: 0%;
+  display: flex;
+  .youtube{
+      padding-left: 25px;
+      
+      
+              
+              a{
+                  text-decoration: none;
+                  color: rgb(255, 255, 255);
+                  font-size: 30px;
+                  &:hover{
+                          color: white;
+                      }
+                          
+                  &:active{
+                      color: rgb(4, 0, 255);
+                      }
+                      }       
+          }
+
+
+          .icon{
+              padding-top: 15px;
+              padding-left: 500px;      
+                  img{
+                   height: 35px;
+                  width: 35x;
+                  padding-right:5px;
+                      }
+          }
+  }
+
+      }
 
 
 
