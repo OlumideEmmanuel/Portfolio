@@ -123,6 +123,7 @@ nav li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 30px;
 }
 
 .center .buy img {
@@ -137,5 +138,50 @@ nav li a:hover {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: 5px solid white;
+}
+
+.center .center-right {
+  padding: 10px;
+}
+
+.center .center-right .discount {
+  font-weight: bold;
+}
+
+.down {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.down .youtube {
+  padding-left: 25px;
+}
+
+.down .youtube a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.down .youtube a:hover {
+  color: white;
+}
+
+.down .youtube a:active {
+  color: #0400ff;
+}
+
+.down .icon {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.down .icon img {
+  height: 25px;
+  width: 25x;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=index.css.map */

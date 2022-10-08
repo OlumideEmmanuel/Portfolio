@@ -132,6 +132,8 @@ nav {
         padding-top: 20px;
         font-family: 'Catamaran', sans-serif;
         display: flex;
+        padding-left: 30px;
+        
         img{
             // display: none;
             width: 15px;
@@ -150,10 +152,63 @@ nav {
             margin-left: auto;
             margin-right: auto;
             display: block;
+            border: 5px solid rgb(255, 255, 255);
+
+
+            
             
         }
     }
+
+
+    .center-right{
+        padding: 10px;
+
+        .discount{
+            font-weight: bold;
+        }
+    }
 }
+
+
+.down{
+    padding: 0px;
+    display: flex;
+    
+
+    .youtube{
+        padding-left: 25px;
+        
+                
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 15px;
+                    &:hover{
+                            color: white;
+                        }
+                            
+                    &:active{
+                        color: rgb(4, 0, 255);
+                        }
+                        }       
+            }
+
+
+            .icon{
+                padding-top: 15px;
+                padding-left: 20px;
+                
+                  
+                            
+                    img{
+                     height: 25px;
+                    width: 25x;
+                    padding-right:5px;
+                        }
+            }
+    }
+
 
 
 
