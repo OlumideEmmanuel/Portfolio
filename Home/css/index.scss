@@ -448,7 +448,8 @@ nav {
 .center{
   margin: 15px;
   padding: 0px;
-  display: none;
+  display: flex;
+  
 
 
   .center-left{
@@ -559,7 +560,11 @@ nav {
       }
 
 
-
+    //   @media only screen and (max-width: 1365px) {
+    //     body{
+    //         display: none;
+    //     }
+    //   }
 
 
 
@@ -571,10 +576,6 @@ nav {
  @media only screen and (min-width: 1440px) {
       
 
-    body{
-        // overflow-y: hidden;
-        // overflow-x: hidden;
-    }
 
 .center{
   margin: 15px;
