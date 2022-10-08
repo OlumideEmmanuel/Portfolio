@@ -131,9 +131,11 @@ nav li a:hover {
 }
 
 .center .center-middle img {
-  padding-left: 15px;
   padding-top: 26px;
   width: 15em;
   height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 /*# sourceMappingURL=index.css.map */
