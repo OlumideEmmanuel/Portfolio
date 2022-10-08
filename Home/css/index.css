@@ -129,4 +129,11 @@ nav li a:hover {
   width: 15px;
   height: 15px;
 }
+
+.center .center-middle img {
+  padding-left: 15px;
+  padding-top: 26px;
+  width: 15em;
+  height: 15rem;
+}
 /*# sourceMappingURL=index.css.map */
