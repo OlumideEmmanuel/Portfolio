@@ -284,6 +284,9 @@ nav li a:hover {
   .center {
     margin: 15px;
     padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .center .center-left {
     padding: 2px;
