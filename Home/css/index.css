@@ -321,8 +321,8 @@ nav li a:hover {
   }
   .center .center-middle img {
     padding-top: 55px;
-    width: 17em;
-    height: 17em;
+    min-width: 17em;
+    min-height: 17em;
     border: 0px;
   }
   .center .center-right {
