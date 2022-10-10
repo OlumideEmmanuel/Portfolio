@@ -283,7 +283,6 @@ nav li a:hover {
     color: white;
   }
   .center {
-    display: none;
     margin: 15px;
     padding: 0px;
     display: -webkit-box;
@@ -291,18 +290,18 @@ nav li a:hover {
     display: flex;
   }
   .center .center-left {
-    padding: 2px;
+    padding: 0px;
   }
   .center .new {
     font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 55px;
+    text-align: left;
+    font-size: 20px;
   }
   .center .virtual {
     font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 70px;
-    line-height: 60px;
+    text-align: left;
+    font-size: 60px;
+    line-height: 50px;
     font-family: 'Passion One', cursive;
   }
   .center .buy {
@@ -311,44 +310,49 @@ nav li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 30px;
-    font-size: 30px;
+    padding-left: 5px;
+    font-size: 10px;
   }
   .center .buy img {
     padding-left: 5px;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
   }
   .center .center-middle img {
-    padding-top: 62px;
-    min-width: 17em;
-    min-height: 17em;
+    padding-left: 0px;
+    padding-top: 50px;
+    min-width: 20em;
+    min-height: 20em;
     border: 0px;
   }
   .center .center-right {
-    padding: 10px;
+    padding: 0px;
+    padding-top: 70px;
   }
   .center .center-right .discount {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 18px;
+    text-align: right;
   }
   .center .center-right .lorem {
-    font-size: 20px;
+    font-size: 10px;
+    text-align: right;
   }
   .down {
-    display: none;
+    position: absolute;
+    top: 80%;
     padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .down .youtube {
-    padding-left: 25px;
+    padding-left: 0px;
   }
   .down .youtube a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
   }
   .down .youtube a:hover {
     color: white;
@@ -357,12 +361,12 @@ nav li a:hover {
     color: #0400ff;
   }
   .down .icon {
-    padding-top: 15px;
-    padding-left: 300px;
+    padding-top: 20px;
+    padding-left: 450px;
   }
   .down .icon img {
-    height: 35px;
-    width: 35x;
+    height: 20px;
+    width: 20px;
     padding-right: 5px;
   }
 }
