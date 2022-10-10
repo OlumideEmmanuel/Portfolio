@@ -257,8 +257,7 @@ nav {
           body{
             // overflow-y: hidden;
             // overflow-x: hidden;
-            height: 100%;
-            display: none;
+            // height: 100%;
           }
         
         
@@ -328,115 +327,117 @@ nav {
 
 
                       
-// .center{
-//     margin: 15px;
-//     padding: 0px;
-//     display: flex;
+.center{
+    display: none;
+    margin: 15px;
+    padding: 0px;
+    display: flex;
 
 
-//     .center-left{
-//        padding: 2px;
-//     }
+    .center-left{
+       padding: 2px;
+    }
 
-//     .new{
-//         font-family: 'Alkalami', serif;
-//         text-align: center;
-//         font-size: 55px;
+    .new{
+        font-family: 'Alkalami', serif;
+        text-align: center;
+        font-size: 55px;
 
-//     }
+    }
     
-//     .virtual{
-//         // display: none;
-//         font-family: 'Alkalami', serif;
-//         text-align: center;
-//         font-size: 70px;
-//         line-height: 60px;
-//         font-family: 'Passion One', cursive;
-//     }
+    .virtual{
+        // display: none;
+        font-family: 'Alkalami', serif;
+        text-align: center;
+        font-size: 70px;
+        line-height: 60px;
+        font-family: 'Passion One', cursive;
+    }
 
-//     .buy{
-//         padding-top: 10px;
-//         font-family: 'Catamaran', sans-serif;
-//         display: flex;
-//         padding-left: 30px;
-//         font-size: 30px;
+    .buy{
+        padding-top: 10px;
+        font-family: 'Catamaran', sans-serif;
+        display: flex;
+        padding-left: 30px;
+        font-size: 30px;
         
-//         img{
-//             // display: none;
-//             padding-left: 5px;
-//             width: 25px;
-//             height: 25px;
+        img{
+            // display: none;
+            padding-left: 5px;
+            width: 25px;
+            height: 25px;
             
-//         }
-//     }
+        }
+    }
 
-//     .center-middle{
+    .center-middle{
         
-//         img{
-//             // padding-left: 15px;
-//             padding-top: 20px;
-//             width: 17em;
-//             height: 17rem;
-//             margin-left: auto;
-//             margin-right: auto;
-//             display: block;
-//             border: 5px solid rgb(255, 255, 255);
+        img{
+            // padding-left: 15px;
+            padding-top: 20px;
+            width: 17em;
+            height: 17rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 5px solid rgb(255, 255, 255);
 
 
             
             
-//         }
-//     }
+        }
+    }
 
 
-//     .center-right{
-//         padding: 10px;
+    .center-right{
+        padding: 10px;
 
-//         .discount{
-//             font-weight: bold;
-//             font-size: 30px;
-//         }
+        .discount{
+            font-weight: bold;
+            font-size: 30px;
+        }
 
-//         .lorem{
-//             font-size: 20px;
-//         }
-//     }
-// }
+        .lorem{
+            font-size: 20px;
+        }
+    }
+}
 
 
-// .down{
-//     padding: 0px;
-//     display: flex;
-//     .youtube{
-//         padding-left: 25px;
+.down{
+    display: none;
+    padding: 0px;
+    display: flex;
+    .youtube{
+        padding-left: 25px;
         
         
                 
-//                 a{
-//                     text-decoration: none;
-//                     color: rgb(255, 255, 255);
-//                     font-size: 30px;
-//                     &:hover{
-//                             color: white;
-//                         }
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 30px;
+                    &:hover{
+                            color: white;
+                        }
                             
-//                     &:active{
-//                         color: rgb(4, 0, 255);
-//                         }
-//                         }       
-//             }
+                    &:active{
+                        color: rgb(4, 0, 255);
+                        }
+                        }       
+            }
 
 
-//             .icon{
-//                 padding-top: 15px;
-//                 padding-left: 300px;      
-//                     img{
-//                      height: 35px;
-//                     width: 35x;
-//                     padding-right:5px;
-//                         }
-//             }
-//     }
+            .icon{
+                padding-top: 15px;
+                padding-left: 300px;      
+                    img{
+                     height: 35px;
+                    width: 35x;
+                    padding-right:5px;
+                        }
+            }
+    }
 
 
 

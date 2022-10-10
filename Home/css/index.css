@@ -219,10 +219,6 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    height: 100%;
-    display: none;
-  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -281,6 +277,92 @@ nav li a:hover {
   .log-in:hover {
     background-color: #7a73b9;
     color: white;
+  }
+  .center {
+    display: none;
+    margin: 15px;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .center .center-left {
+    padding: 2px;
+  }
+  .center .new {
+    font-family: 'Alkalami', serif;
+    text-align: center;
+    font-size: 55px;
+  }
+  .center .virtual {
+    font-family: 'Alkalami', serif;
+    text-align: center;
+    font-size: 70px;
+    line-height: 60px;
+    font-family: 'Passion One', cursive;
+  }
+  .center .buy {
+    padding-top: 10px;
+    font-family: 'Catamaran', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .center .buy img {
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;
+  }
+  .center .center-middle img {
+    padding-top: 20px;
+    width: 17em;
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid white;
+  }
+  .center .center-right {
+    padding: 10px;
+  }
+  .center .center-right .discount {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .center .center-right .lorem {
+    font-size: 20px;
+  }
+  .down {
+    display: none;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down .youtube {
+    padding-left: 25px;
+  }
+  .down .youtube a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .down .youtube a:hover {
+    color: white;
+  }
+  .down .youtube a:active {
+    color: #0400ff;
+  }
+  .down .icon {
+    padding-top: 15px;
+    padding-left: 300px;
+  }
+  .down .icon img {
+    height: 35px;
+    width: 35x;
+    padding-right: 5px;
   }
 }
 /*# sourceMappingURL=index.css.map */
