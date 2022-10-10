@@ -295,13 +295,16 @@ nav li a:hover {
   .center .new {
     font-family: 'Alkalami', serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 70px;
+    padding-left: 15px;
   }
   .center .virtual {
     font-family: 'Alkalami', serif;
     text-align: left;
     font-size: 60px;
     line-height: 50px;
+    padding-left: 15px;
     font-family: 'Passion One', cursive;
   }
   .center .buy {
@@ -310,8 +313,8 @@ nav li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 5px;
-    font-size: 10px;
+    padding-left: 15px;
+    font-size: 20px;
   }
   .center .buy img {
     padding-left: 5px;
@@ -319,15 +322,17 @@ nav li a:hover {
     height: 15px;
   }
   .center .center-middle img {
+    position: absolute;
     padding-left: 0px;
-    padding-top: 50px;
-    min-width: 20em;
-    min-height: 20em;
+    padding-top: 60px;
+    min-width: 24em;
+    min-height: 24em;
+    left: 30%;
     border: 0px;
   }
   .center .center-right {
     padding: 0px;
-    padding-top: 70px;
+    padding-top: 130px;
   }
   .center .center-right .discount {
     font-weight: bold;
@@ -335,12 +340,13 @@ nav li a:hover {
     text-align: right;
   }
   .center .center-right .lorem {
-    font-size: 10px;
+    font-size: 13px;
     text-align: right;
+    padding-left: 200px;
   }
   .down {
     position: absolute;
-    top: 80%;
+    top: 120%;
     padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -362,7 +368,7 @@ nav li a:hover {
   }
   .down .icon {
     padding-top: 20px;
-    padding-left: 450px;
+    padding-left: 460px;
   }
   .down .icon img {
     height: 20px;
