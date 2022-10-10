@@ -149,7 +149,7 @@ nav {
             // padding-left: 15px;
             padding-top: 26px;
             width: 15em;
-            height: 15rem;
+           minheight: 15rem;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -255,8 +255,8 @@ nav {
     @media only screen and (min-width: 768px) {
 
           body{
-            // overflow-y: hidden;
-            // overflow-x: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
             // height: 100%;
           }
         
@@ -373,18 +373,12 @@ nav {
     .center-middle{
         
         img{
+           
             // padding-left: 15px;
-            padding-top: 20px;
+            padding-top: 55px;
             width: 17em;
-            height: 17rem;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            border: 5px solid rgb(255, 255, 255);
-
-
-            
-            
+            height: 17em;
+            border: 0px;
         }
     }
 

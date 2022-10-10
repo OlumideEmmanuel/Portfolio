@@ -135,7 +135,7 @@ nav li a:hover {
 .center .center-middle img {
   padding-top: 26px;
   width: 15em;
-  height: 15rem;
+  minheight: 15rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -219,6 +219,10 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -316,13 +320,10 @@ nav li a:hover {
     height: 25px;
   }
   .center .center-middle img {
-    padding-top: 20px;
+    padding-top: 55px;
     width: 17em;
-    height: 17rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 5px solid white;
+    height: 17em;
+    border: 0px;
   }
   .center .center-right {
     padding: 10px;
