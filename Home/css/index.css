@@ -8,6 +8,7 @@ body {
   background-size: auto;
   color: white;
   overflow-x: hidden;
+  height: 100%;
 }
 
 .navbar {
@@ -218,10 +219,6 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -359,182 +356,6 @@ nav li a:hover {
   .down .icon {
     padding-top: 15px;
     padding-left: 300px;
-  }
-  .down .icon img {
-    height: 35px;
-    width: 35x;
-    padding-right: 5px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .center {
-    margin: 15px;
-    padding: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .center .center-left {
-    padding: 2px;
-  }
-  .center .new {
-    font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 50px;
-  }
-  .center .virtual {
-    font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 100px;
-    line-height: 70px;
-    font-family: 'Passion One', cursive;
-  }
-  .center .buy {
-    padding-top: 5px;
-    font-family: 'Catamaran', sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-left: 30px;
-    font-size: 30px;
-  }
-  .center .buy img {
-    padding-left: 5px;
-    width: 30px;
-    height: 30px;
-  }
-  .center .center-middle img {
-    padding-top: 20px;
-    width: 18em;
-    height: 18rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 5px solid white;
-  }
-  .center .center-right {
-    padding: 10px;
-  }
-  .center .center-right .discount {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  .center .center-right .lorem {
-    font-size: 25px;
-  }
-  .down {
-    padding: 0px;
-    margin: 0%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .down .youtube {
-    padding-left: 25px;
-  }
-  .down .youtube a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-  }
-  .down .youtube a:hover {
-    color: white;
-  }
-  .down .youtube a:active {
-    color: #0400ff;
-  }
-  .down .icon {
-    padding-top: 15px;
-    padding-left: 500px;
-  }
-  .down .icon img {
-    height: 35px;
-    width: 35x;
-    padding-right: 5px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .center {
-    margin: 15px;
-    padding: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .center .center-left {
-    padding: 2px;
-  }
-  .center .new {
-    font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 50px;
-  }
-  .center .virtual {
-    font-family: 'Alkalami', serif;
-    text-align: center;
-    font-size: 100px;
-    line-height: 70px;
-    font-family: 'Passion One', cursive;
-  }
-  .center .buy {
-    padding-top: 5px;
-    font-family: 'Catamaran', sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-left: 30px;
-    font-size: 30px;
-  }
-  .center .buy img {
-    padding-left: 5px;
-    width: 30px;
-    height: 30px;
-  }
-  .center .center-middle img {
-    padding-top: 20px;
-    width: 18em;
-    height: 18rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 5px solid white;
-  }
-  .center .center-right {
-    padding: 10px;
-  }
-  .center .center-right .discount {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  .center .center-right .lorem {
-    font-size: 25px;
-  }
-  .down {
-    padding: 0px;
-    margin: 0%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .down .youtube {
-    padding-left: 25px;
-  }
-  .down .youtube a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-  }
-  .down .youtube a:hover {
-    color: white;
-  }
-  .down .youtube a:active {
-    color: #0400ff;
-  }
-  .down .icon {
-    padding-top: 15px;
-    padding-left: 500px;
   }
   .down .icon img {
     height: 35px;
