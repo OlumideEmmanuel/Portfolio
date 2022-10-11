@@ -376,4 +376,186 @@ nav li a:hover {
     padding-right: 5px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .center {
+    margin: 15spx;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .center .center-left {
+    padding: 2px;
+    padding-top: 200px;
+  }
+  .center .new {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 35px;
+  }
+  .center .virtual {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .center .buy {
+    padding-top: 5px;
+    font-family: 'Catamaran', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .center .buy img {
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .center .center-middle img {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 10;
+    padding-top: 50px;
+    width: 40em;
+    height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center .center-right {
+    padding: 10px;
+    padding-top: 350px;
+  }
+  .center .center-right .discount {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .center .center-right .lorem {
+    font-size: 15px;
+  }
+  .down {
+    padding-top: 70px;
+    margin: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down .youtube {
+    padding-left: 25px;
+  }
+  .down .youtube a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .down .youtube a:hover {
+    color: white;
+  }
+  .down .youtube a:active {
+    color: #0400ff;
+  }
+  .down .icon {
+    padding-top: 0px;
+    padding-left: 630px;
+  }
+  .down .icon img {
+    height: 25px;
+    width: 35x;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .center {
+    margin: 15spx;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .center .center-left {
+    padding: 2px;
+    padding-top: 200px;
+  }
+  .center .new {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 50px;
+  }
+  .center .virtual {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .center .buy {
+    padding-top: 5px;
+    font-family: 'Catamaran', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .center .buy img {
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .center .center-middle img {
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    z-index: 10;
+    padding-top: 50px;
+    width: 50em;
+    height: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center .center-right {
+    padding: 10px;
+    padding-top: 350px;
+  }
+  .center .center-right .discount {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .center .center-right .lorem {
+    font-size: 15px;
+  }
+  .down {
+    padding-top: 70px;
+    margin: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down .youtube {
+    padding-left: 25px;
+  }
+  .down .youtube a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .down .youtube a:hover {
+    color: white;
+  }
+  .down .youtube a:active {
+    color: #0400ff;
+  }
+  .down .icon {
+    padding-top: 0px;
+    padding-left: 630px;
+  }
+  .down .icon img {
+    height: 25px;
+    width: 35x;
+    padding-right: 5px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
