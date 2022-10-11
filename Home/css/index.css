@@ -387,7 +387,7 @@ nav li a:hover {
   }
   .center .center-left {
     padding: 2px;
-    padding-top: 20px;
+    padding-top: 0px;
   }
   .center .new {
     font-family: 'Alkalami', serif;
@@ -416,7 +416,7 @@ nav li a:hover {
   }
   .center .center-middle img {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 30%;
     z-index: 10;
     padding-top: 50px;
@@ -427,7 +427,7 @@ nav li a:hover {
   }
   .center .center-right {
     padding: 10px;
-    padding-top: 350px;
+    padding-top: 150px;
   }
   .center .center-right .discount {
     font-weight: bold;
@@ -437,7 +437,9 @@ nav li a:hover {
     font-size: 15px;
   }
   .down {
-    padding-top: 70px;
+    position: absolute;
+    top: 550px;
+    left: 15px;
     margin: 0%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -449,7 +451,7 @@ nav li a:hover {
   .down .youtube a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 18px;
   }
   .down .youtube a:hover {
     color: white;
@@ -458,8 +460,14 @@ nav li a:hover {
     color: #0400ff;
   }
   .down .icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 0px;
-    padding-left: 630px;
   }
   .down .icon img {
     height: 25px;
