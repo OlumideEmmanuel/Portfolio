@@ -149,7 +149,7 @@ nav {
             // padding-left: 15px;
             padding-top: 26px;
             width: 15em;
-           minheight: 15rem;
+           min-height: 15rem;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -463,7 +463,7 @@ nav {
 
   .center-left{
      padding: 2px;
-     padding-top: 200px;
+     padding-top: 20px;
   }
 
   .new{
@@ -483,11 +483,11 @@ nav {
   }
 
   .buy{
-      padding-top: 5px;
+      padding-top: 0px;
       font-family: 'Catamaran', sans-serif;
       display: flex;
       padding-left: 30px;
-      font-size: 30px;
+      font-size: 20px;
       
       img{
           // display: none;
@@ -502,13 +502,13 @@ nav {
       
       img{
         position: absolute;
-        top: 25%;
-        left: 25%;
+        top: 10%;
+        left: 30%;
         z-index: 10;
           // padding-left: 15px;
           padding-top: 50px;
           width: 40em;
-          height: 50rem;
+          height: 40rem;
           margin-left: auto;
           margin-right: auto;
           

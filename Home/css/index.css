@@ -135,7 +135,7 @@ nav li a:hover {
 .center .center-middle img {
   padding-top: 26px;
   width: 15em;
-  minheight: 15rem;
+  min-height: 15rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -387,7 +387,7 @@ nav li a:hover {
   }
   .center .center-left {
     padding: 2px;
-    padding-top: 200px;
+    padding-top: 20px;
   }
   .center .new {
     font-family: 'Alkalami', serif;
@@ -401,13 +401,13 @@ nav li a:hover {
     line-height: 80px;
   }
   .center .buy {
-    padding-top: 5px;
+    padding-top: 0px;
     font-family: 'Catamaran', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .center .buy img {
     padding-left: 5px;
@@ -416,12 +416,12 @@ nav li a:hover {
   }
   .center .center-middle img {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 10%;
+    left: 30%;
     z-index: 10;
     padding-top: 50px;
     width: 40em;
-    height: 50rem;
+    height: 40rem;
     margin-left: auto;
     margin-right: auto;
   }
