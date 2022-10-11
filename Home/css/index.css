@@ -435,6 +435,7 @@ nav li a:hover {
   }
   .center .center-right .lorem {
     font-size: 15px;
+    padding-left: 300px;
   }
   .down {
     position: absolute;
@@ -461,8 +462,8 @@ nav li a:hover {
   }
   .down .icon {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 420px;
     z-index: 10;
     display: -webkit-box;
     display: -ms-flexbox;
