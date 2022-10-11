@@ -477,6 +477,106 @@ nav li a:hover {
   }
 }
 
+@media only screen and (min-width: 1366px) {
+  .center {
+    margin: 15spx;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .center .center-left {
+    padding: 2px;
+    padding-top: 0px;
+  }
+  .center .new {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 35px;
+  }
+  .center .virtual {
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .center .buy {
+    padding-top: 0px;
+    font-family: 'Catamaran', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .center .buy img {
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .center .center-middle img {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    z-index: 10;
+    padding-top: 50px;
+    width: 40em;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center .center-right {
+    padding: 10px;
+    padding-top: 150px;
+  }
+  .center .center-right .discount {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .center .center-right .lorem {
+    font-size: 15px;
+    padding-left: 300px;
+  }
+  .down {
+    position: absolute;
+    top: 550px;
+    left: 15px;
+    margin: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down .youtube {
+    padding-left: 25px;
+  }
+  .down .youtube a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  .down .youtube a:hover {
+    color: white;
+  }
+  .down .youtube a:active {
+    color: #0400ff;
+  }
+  .down .icon {
+    position: absolute;
+    top: 10px;
+    left: 720px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0px;
+  }
+  .down .icon img {
+    height: 25px;
+    width: 35x;
+    padding-right: 15px;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .center {
     margin: 15px;
